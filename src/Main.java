@@ -3,10 +3,9 @@ public class Main {
 
         var boxerOne = 78.2;
         var boxerTwo = 82.7;
-        var weightDifference = boxerTwo - boxerOne;
-        var weightTotal = boxerOne + boxerTwo;
+        var weightlLost = boxerTwo % boxerOne;
 
-        System.out.println(weightTotal);
 
-        System.out.println(weightDifference);
+       // не понятно выводить ли в консоль System.out.println(weightlLost);
+
     }}
