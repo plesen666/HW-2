@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        var boxerOne = 78.2;
-        var boxerTwo = 82.7;
-        var weightlLost = boxerTwo % boxerOne;
+        var hours = 640;
+        var staff = hours/8;
 
 
-       // не понятно выводить ли в консоль System.out.println(weightlLost);
+      System.out.println("Всего работников в компании — " +staff+" человек");
 
+        var staffNew= staff+94;
+        System.out.println("Если в компании работает " + staffNew + " человек, то всего " + hours /staffNew + " часа работы может быть поделено между сотрудниками");
     }}
