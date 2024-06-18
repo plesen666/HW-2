@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         var hours = 640;
-        var staff = hours/8;
+        var staff = hours/ 8;
 
 
       System.out.println("Всего работников в компании — " +staff+" человек");
